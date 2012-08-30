@@ -14,6 +14,10 @@ Then, clone the repository and ```make``` the interpreter:
     git clone git@github.com:jbrunton/obj-asp.git
     cd obj-asp/oasp
     make
+    
+You can clean the build as you'd expect:
+
+    make clean
 
 ## Usage
 
