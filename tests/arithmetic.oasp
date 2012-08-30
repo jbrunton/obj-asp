@@ -1,0 +1,14 @@
+plus = letrec plus:Nat -> Nat -> Nat =
+    lambda m:Nat.
+        lambda n:Nat.
+            if iszero m then n else succ(plus (pred m) n)
+    in plus;
+
+times = letrec times:Nat -> Nat -> Nat =
+    lambda m:Nat.
+        lambda n:Nat.
+            if iszero m then 0 else plus n (times (pred m) n)
+    in times;
+
+plus 2 3;
+times 2 3;
