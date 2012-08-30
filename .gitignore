@@ -1,0 +1,6 @@
+*.cmo
+*.cmi
+oasp/lexer.ml
+oasp/parser.ml
+oasp/parser.mli
+oasp/main
